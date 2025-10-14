@@ -2712,7 +2712,7 @@ async function initializeApp() { // फ़ंक्शन को async बना
             } else {
                 console.log("No user logged in. Redirecting to login page.");
                 hideLoadingSpinner(); // रीडायरेक्ट करने से पहले छिपाएं
-                window.location.href = 'login.html';
+                window.location.href = 'https://booster.testcopy.in/2025/10/login.html';
             }
         });
     } else {
@@ -2796,4 +2796,5 @@ initializeApp();
 //instant set stats save in local to reduce use  of read and write and reduce loading time.
 //create my profile , test history page and setting page
 //add payment gateway to apply minimal charge to get bacup for backend server cost.
+
 /// as it as...............
